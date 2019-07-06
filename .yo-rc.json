@@ -1,0 +1,51 @@
+{
+  "generator-jhipster": {
+    "applicationType": "uaa",
+    "gitCompany": "",
+    "baseName": "jhipsterSampleApplication",
+    "packageName": "fr.pereira.frederic.jhipster.application",
+    "packageFolder": "fr/pereira/frederic/jhipster/application",
+    "serverPort": 9999,
+    "serviceDiscoveryType": "consul",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "prodDatabaseType": "mongodb",
+    "searchEngine": "elasticsearch",
+    "enableSwaggerCodegen": false,
+    "messageBroker": "kafka",
+    "buildTool": "maven",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "cucumber",
+      "protractor"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "fr",
+    "languages": [
+      "nl",
+      "en",
+      "de",
+      "it",
+      "pt-pt",
+      "es",
+      "fr"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "6.1.2",
+    "jwtSecretKey": "YWExZDMzY2RjYjA4ZmY1NjJkYWFhMGQyMjliNTc2YzI1OTVmYzc3ZjM3MjQ0YjZlMWIwOTM0OTUwNWI3YmIwZmJiNzMzYzRmNTJmYmJkM2NkYzJhZmU5OThjYzExMTRmMTg4MDhiNjU1MjRkODMyYjBhMDE0OGQ1NGE5YmFhNjU=",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "skipClient": true
+  },
+  "git-provider": "GitHub",
+  "git-company": "pereirafrederic",
+  "repository-name": "jhipster-sample-application"
+}
